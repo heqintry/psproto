@@ -54,7 +54,7 @@ ZEND_END_MODULE_GLOBALS(psproto)
 */
 #define PSPROTO_G(v) ZEND_MODULE_GLOBALS_ACCESSOR(sproto, v)
 
-#if defined(ZTS) && defined(COMPILE_DL_SPROTO)
+#if defined(ZTS) && defined(COMPILE_DL_PSPROTO)
 ZEND_TSRMLS_CACHE_EXTERN()
 #endif
 

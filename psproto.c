@@ -826,7 +826,7 @@ PHP_MSHUTDOWN_FUNCTION(sproto)
  */
 PHP_RINIT_FUNCTION(sproto)
 {
-#if defined(COMPILE_DL_SPROTO) && defined(ZTS)
+#if defined(COMPILE_DL_PSPROTO) && defined(ZTS)
 	ZEND_TSRMLS_CACHE_UPDATE();
 #endif
 	return SUCCESS;
@@ -896,7 +896,7 @@ zend_module_entry sproto_module_entry = {
 };
 /* }}} */
 
-#ifdef COMPILE_DL_SPROTO
+#ifdef COMPILE_DL_PSPROTO
 #ifdef ZTS
 ZEND_TSRMLS_CACHE_DEFINE()
 #endif

@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_SPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_PSPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\main;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\Zend;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\TSRM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
@@ -101,7 +101,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_SPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_PSPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>E:\phpdev\phpsrc\vc14\x64\php-src;E:\phpdev\phpsrc\vc14\x64\php-src\main;E:\phpdev\phpsrc\vc14\x64\php-src\Zend;E:\phpdev\phpsrc\vc14\x64\php-src\TSRM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
@@ -118,7 +118,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\main;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\Zend;D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\TSRM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_SPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PSPROTO_EXPORTS;WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_PSPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>D:\dev\phpsdk\php-sdk-binary-tools\phpdev\vc15\x64\php-src\x64\Release_TS;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -128,7 +128,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>E:\phpdev\phpsrc\vc14\x64\php-src;E:\phpdev\phpsrc\vc14\x64\php-src\main;E:\phpdev\phpsrc\vc14\x64\php-src\Zend;E:\phpdev\phpsrc\vc14\x64\php-src\TSRM;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_SPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SPROTO_EXPORTS;ZEND_DEBUG=0;PHP_EXTENSION;PHP_WIN32;ZEND_WIN32;HAVE_SPROTO=1;COMPILE_DL_PSPROTO;ZTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Optimization>Full</Optimization>
     </ClCompile>
     <Link>
